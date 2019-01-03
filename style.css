@@ -1,0 +1,28 @@
+body {
+	padding: 10px;
+	font-family: serif;
+	color: #444;
+	margin: 20px;
+	line-height: 1.6;
+	max-width:650px;
+	margin:40px auto;
+}
+
+header {
+	font-size: 19px;
+	line-height:1.2;
+}
+
+aside {
+	font-size: 18px;
+}
+
+h3 {
+	line-height:1.6;
+	text
+}
+
+blockquote {
+	text-align: center;
+	font-size: 25px;
+}
