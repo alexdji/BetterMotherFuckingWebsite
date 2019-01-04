@@ -15,6 +15,28 @@ function monPopup(){
 
     }
 };
+
+function myFunction(){
+    /* change la police des paragraphes en papyrus et leur couleur en bleu */
+    var el = document.querySelectorAll("p")
+    for (var i = 0; i < el.length; i++)
+  {
+    el[i].style.fontFamily= "Papyrus";
+    el[i].style.color= "blue";
+  }
+
+/* change la police des titres en comic sans et leur couleur en vert*/
+  var el2 = document.querySelectorAll("h1,h2,h3,h4")
+  for (var k = 0; k < el2.length; k++)
+  {
+    el2[k].style.fontFamily= "Comic Sans MS";
+    el2[k].style.color= "green";
+    }
+    
+    /* change la couleur du fond en magenta */
+    document.body.style.backgroundColor = "magenta";
+}
+
 </script>
 
     <title>Bettermotherfuckingwebsite</title>
@@ -26,6 +48,8 @@ function monPopup(){
     </header>
         
         <h2>Seriously, it takes minimal fucking effort to improve this shit.</h2>
+
+        <button type="button" onclick="myFunction()">Donne moi ton corps baby... Change moi ce site ! </button>
 
         <h3>7 fucking declarations.</h3>
         
